@@ -1,0 +1,280 @@
+@media screen and (min-width: 1024px )	{
+
+#header, #footer, #container	{
+
+	padding: 0 150px;
+
+}
+
+#header, #footer	{
+
+	clear: both;
+	height: 60px;
+	background-color: black;
+	
+}
+
+
+#footer	{
+
+	margin: 50px 0 0 0;
+	
+}
+
+#container		{
+
+	min-height: 530px;
+	height: 100%;
+	
+}
+
+#container #sidebar		{
+
+	float: right;
+	width: 32%;
+	
+}
+
+#container #contents		{
+
+	float: left;
+	width: 63%;
+
+}
+
+#sidebar, #contents	{
+
+	margin: 5% 0 0 0;
+	min-height: 200px;
+
+
+}
+
+
+.status_show	{
+	
+	display: block;
+	
+}
+
+}/*---------------End Of Media--------------*/
+
+
+@media screen and (max-width: 1225px)	{
+
+#header, #footer, #container	{
+
+	padding: 0 40px;
+
+}
+
+#header, #footer	{
+
+	clear: both;
+	min-height: 60px;
+	background-color: black;
+	
+}
+
+#wrapper #header	{
+
+	margin: 0 0 25px 0;
+
+}
+
+#wrapper #header #search	{
+
+	margin: 0 75px 0 0;
+	display: block;
+
+}
+
+}/*---------------End Of Media--------------*/
+
+@media screen and (max-width: 1024px)	{
+
+#wrapper #sidebar #intrst	{
+
+	display: none;
+
+}
+
+}/*---------------End Of Media--------------*/
+
+
+@media screen and (max-width: 800px )	{
+
+	#wrapper #header #search	{
+
+		margin: 0;
+		display: none;
+
+	}
+
+
+}/*---------------End Of Media--------------*/
+
+@media screen and (max-width: 525px )	{
+
+#wrapper  #header	{
+
+	padding: 5px 0px 0px;
+
+}
+
+#wrapper  #header #logout		{
+
+	min-width: 100px;
+	width: auto;
+	max-width: 220px;
+	height: auto;
+	float: none;
+	margin: 0 auto;
+
+}
+
+#wrapper  #header #logout #nav	{
+
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+
+}
+
+#wrapper  #header #logout #nav span	{
+
+	width: 100px;
+
+}
+
+#wrapper  #header #logout #nav  span label	{
+
+	padding: 0;
+	line-height: 1;
+	text-align: left;
+	
+}
+
+#wrapper  #header #logout #nav  span label a:hover	{
+
+	color: white;
+	
+}
+
+#logout #nav #darrow	{
+
+	display: none;
+
+}
+
+#header #logout #list {
+
+	display: block;
+	background: black;
+	border: none;
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	position: static;
+	padding: 0;
+
+}
+
+#header #logout #list  #ul_list{
+
+	margin: 0 auto;
+
+}
+
+#header #logout #list #ul_list ul li	{
+
+	display: inline-block;
+	font-size: 12px;
+	width: 100px;
+	padding: 0;
+	
+	font-style: normal;
+	position: static;
+	bottom: 0;
+	left: 0;
+	
+	
+}
+
+#header #logout #list #ul_list ul li a:hover	{
+
+	text-decoration: underline;
+	font-weight: normal;
+	color: White;
+}
+
+#header #logout #list #ul_list img	{
+
+	display: none;
+
+}
+
+#header #logout #list #jodtaar	{
+
+	display: none;
+
+}
+
+#wrapper  #header #extra_nav	{
+
+	max-width: 220px;	
+	width: auto;
+	height: auto;
+	padding: 0px;
+	margin: 0 auto;
+
+}
+
+#header #extra_nav img	{
+
+	display: none;
+	
+}
+
+#header #extra_nav span label	{
+
+	display: inline-block;
+	text-align: left;
+	width: 100px;
+}
+
+#header #extra_nav span label:hover	{
+
+	text-decoration: underline;
+	color: white;
+
+}
+
+#wrapper #header #extra_nav span	{
+
+	height: auto;
+	width: auto;
+	padding: 0;
+
+}
+
+
+#header #logout #nav #present_tab	{
+
+	background: black;
+
+}
+
+#header #logout #nav #present_tab	a {
+
+	color: SteelBlue;
+
+}
+
+#wrapper #container > div	{
+
+	width: 390px;
+
+}
+
+}/*---------------End Of Media--------------*/

@@ -1,0 +1,414 @@
+@import url('all.css');
+@import url('header.css');
+@import url('new_job.css');
+@import url('new_rem.css');	
+@import url('send_new_msg.css');
+	
+/*---------------------contents----------------------------*/
+
+#status	{
+
+	margin: 15px 0 10px;
+	padding: 0 10px 10px;
+
+}
+
+#user_status	{
+
+	width: 100%;
+	margin: 0 0 15px 0;
+
+}
+
+#user_status #top_show	{
+
+	min-height: 60px;
+	width: 100%;
+	
+}
+
+#top_show img	{
+
+	float: left;
+	border: 1px solid DarkGrey;
+	border-radius: 2px;
+	box-shadow: 2px 2px 3px Gray;
+	
+
+}
+
+#top_show #status_update	{
+
+	float: right;
+	height: 50px;
+	width: 85%;
+	margin: 5px 0 0 0;
+	max-width: 550px;
+	max-height: 60px;
+
+}
+
+@media screen and (max-width: 725px)	{
+
+#user_status #top_show #status_update	{
+
+	width: 80%;
+
+}
+
+}/*---End Of Media---*/
+
+@media screen and (max-width: 550px)	{
+
+#user_status #top_show #status_update	{
+
+	width: 75%;
+
+}
+
+}/*---End Of Media---*/
+
+
+
+#top_show label	{
+
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 1px;
+	padding:  0 0 0 17px;
+
+}
+
+#user_status #post_update	{
+
+	margin: 5px 0 0;
+	width: 100%;
+
+}
+
+#status .status_show		{
+
+	min-height: 50px;
+	max-height: 100px;	
+	margin: 30px 0 15px;
+	
+}
+
+#recent_act	{
+
+	background: -moz-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+	background: -webkit-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+	background: -o-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+	background: -ms-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+
+	border: 0px solid GhostWhite;
+	border-radius: 10px;
+	min-height: 500px;	
+	margin: 0px 0 30px;
+	padding: 10px;
+	
+	box-shadow: 0px 0px 5px Grey;
+
+}
+
+#recent_act h1	{
+
+	font-size: 19px;
+	text-align: left;
+	margin: 5px 0px 10px 5px;
+	color: SteelBlue;
+	letter-spacing: 0.1em;
+
+}
+
+#recent_act hr	{
+
+	color: LightGray;
+	opacity: 0.7;
+	margin: 0 0 20px;
+
+}
+
+/*---------------sidebar---------------------*/
+
+
+#sidebar	{	
+	
+	background: -moz-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -o-linear-gradient(50deg, Lavender, White, Lavender);		
+	background: -ms-linear-gradient(50deg, Lavender, White, Lavender);
+
+	box-shadow: 0px 0px 5px Grey;
+	border: 0px solid GhostWhite;
+	border-radius: 10px;	
+	
+}
+
+#sidebar h2 .head_img	{
+
+	float: left;			
+	height: 25px;
+	width: 55px;
+	margin: 0 25px 0 0;
+
+}
+
+#sidebar #sideBreak	{
+
+	margin: 5px;
+	height: 2px;
+	color: DimGrey;
+
+}
+
+#sidebar #reminders	{
+/*
+	background: -moz-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -o-linear-gradient(50deg, Lavender, White, Lavender);		
+	background: -ms-linear-gradient(50deg, Lavender, White, Lavender);		
+
+	box-shadow: 0px 0px 5px Grey;
+	border: 0px solid GhostWhite;
+	border-radius: 10px;	
+*/
+	height: 140px;
+	overflow-y: hidden;
+	margin: 0;
+	padding: 20px 5px 10px;
+
+}
+
+#reminders > h2	{
+
+	text-align: left;
+	font-size: 14px;
+	height: 25px;
+	padding: 0px 0px 5px 10px;
+	text-decoration: underline;
+	cursor: pointer;
+
+}
+
+#reminders > h2 > label	{
+
+	cursor: inherit;
+	padding: 0 0 0 35px;
+
+}
+
+#reminders .rems	{
+
+	margin: 3px 10px;
+
+}
+
+#reminders .rems	label {
+
+	color: Grey;
+	font-size: 13px;
+
+}
+
+.rems .DateTime	{
+
+	float: right;
+	font-style: italic;
+	
+}
+
+
+#opp	{
+/*
+	background: -moz-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -o-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -ms-linear-gradient(50deg, Lavender, White, Lavender);		
+	%background-color: GhostWhite;	
+
+	box-shadow: 0px 0px 5px Grey;	
+	border: 0px solid GhostWhite;
+	border-radius: 10px;
+*/
+	min-height: 265px;
+	margin: 0;
+	padding: 15px 10px;
+
+
+}
+
+
+#opp > h2	{
+
+	text-align: left;
+	font-size: 14px;
+	height: 30px;
+	text-decoration:  underline;
+	margin: 5px 0px 15px;
+	cursor: pointer;
+	
+}
+
+#opp > h2 > label	{
+
+	cursor: inherit;
+
+}
+
+#opp .jobpost 	{
+
+	min-height: 100px;
+	margin: 0 10px;
+
+}
+
+#opp .jobpost .user_pic  img	{
+
+	border: 1px solid Gray;
+	border-radius: 3px;
+
+}
+
+#opp .jobpost .post	{
+
+	margin: 0 0 0 5px;
+
+}
+
+.jobpost h3	{
+
+	font-size: 13px;
+	margin: 5px 0 0 0;
+
+}
+
+.jobpost .job_title	{
+
+	padding: 0 0 0 5px;
+	font-weight: bolder;
+
+}
+
+.jobpost .comp	{
+
+	font-style: oblique;
+
+}
+
+.jobpost .details	{
+
+	min-height: 40px;
+	margin: 5px 5px 5px 70px;
+	padding: 0 10px;
+
+}
+
+
+/*===================New Window Open========================*/
+
+
+.modal_box	{
+
+	background: -moz-linear-gradient(50deg, Lavender, Lavender, GhostWhite, White);	
+	background: -webkit-linear-gradient(50deg, Lavender, Lavender, GhostWhite, White);	
+	background: -o-linear-gradient(50deg, Lavender, Lavender, GhostWhite, White);	
+	background: -ms-linear-gradient(50deg, Lavender, Lavender, GhostWhite, White);	
+
+	border: 1px solid GhostWhite;
+	position: fixed;
+	display: none;
+	
+	z-index: 999;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px Gray;
+	
+}
+
+.modal_box #head		{
+
+	min-height: 30px;
+
+}
+
+#head .heading	{
+
+	text-decoration: underline;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 27px;
+	padding: 5px 0;
+	left: 60px;
+
+}
+
+/*---Close Button---*/
+
+
+.close_but	{
+
+	background: -moz-linear-gradient(50deg, Silver , LightGray , Lavender);
+	background: -webkit-linear-gradient(50deg, Silver , LightGray , Lavender);
+	background: -o-linear-gradient(50deg, Silver , LightGray , Lavender);
+	background: -ms-linear-gradient(50deg, Silver , LightGray , Lavender);	
+
+	display: inline-block;
+	margin: 10px 10px 5px 5px;
+	padding: 0 2px 2px;
+	width: 25px;
+	height: 25px;
+	float: right;
+	border-radius: 4px;
+	
+}
+
+.close_but:hover	{
+
+	opacity: 0.7;
+
+}
+
+
+/*-----------------------sidebar => window------------------------*/
+
+
+
+.form_field	p	{
+
+	font-size: 14px;
+	padding: 5px 0px;
+
+}
+
+.form_field input	{
+
+	border: 1px solid LightGray;
+	padding: 0 0 0 5px;
+	width: 230px;
+	height: 25px;
+
+}
+
+.form_field input:focus	{
+
+	border: 1px solid DodgerBlue;
+	
+}
+
+.form_field textarea	{
+
+	border: 1px solid LightGray;
+	width: 230px;
+	max-width: 250px;
+	max-height: 100px;
+
+}
+
+.form_field textarea:focus	{
+
+	border: 1px solid DodgerBlue;
+	
+}

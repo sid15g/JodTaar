@@ -1,0 +1,56 @@
+/*-----------new_job----------------*/
+
+
+#container #new_job	{
+
+/*	top: 10%;
+	left: 20%;			*/
+	
+	min-height: 500px;
+	min-width: 800px;
+
+}
+
+#head #job_det_head	{
+	
+	letter-spacing: 1px;
+	margin: 10px 0px 5px;
+	width: 700px;
+
+}
+
+#new_job #data_form	{
+
+	margin: 10px auto;
+	padding: 0 30px;
+	width: 230px;
+
+}
+
+#data_form .form_field	{
+
+	min-height: 65px;
+	
+}
+
+#data_form #form_sub	{
+
+	height: 30px;
+	margin: 15px 0px 5px;
+	text-align: right;
+
+}
+
+#form_sub button	{
+
+	background: -moz-linear-gradient(50deg, Silver , LightGray , Lavender);
+	background: -webkit-linear-gradient(50deg, Silver , LightGray , Lavender);
+	background: -o-linear-gradient(50deg, Silver , LightGray , Lavender);
+	background: -ms-linear-gradient(50deg, Silver , LightGray , Lavender);	
+
+	width: 60px;
+	padding: 5px;
+	font-size: 15px;
+	border-radius: 4px;	
+
+}

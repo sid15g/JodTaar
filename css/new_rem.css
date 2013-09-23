@@ -1,0 +1,48 @@
+/*-----------new_rem----------------*/
+
+
+#container #new_rem	{
+
+/*	top: 15%;
+	left: 32%;		*/
+	
+	min-height: 375px;
+	min-width: 500px;
+
+}
+
+#head #rem_det_head	{
+	
+	letter-spacing: 1px;	
+	margin: 15px 0px 5px;
+	min-width: 375px;
+
+}
+
+
+#new_rem #rem_form	{
+
+	width: 250px;
+	margin: 20px auto 0;
+
+}
+
+#rem_form .form_field	{
+
+	min-height: 60px;
+
+}
+
+#new_rem #form_sub	{
+
+	margin: 15px 18px 0 0;
+	text-align: right;
+
+}
+
+
+#rem_form #form_sub button	{
+
+	font-size: 115%;
+
+}

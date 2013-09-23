@@ -1,0 +1,384 @@
+/*---------------------Header-------------------*/
+
+#header #logout	{
+
+	float: right;
+	height: 60px;
+	min-width: 215px;
+	max-width: 270px;
+
+}
+
+#logout #nav	{
+
+	height: 60px;
+
+}
+
+#logout #nav .tab	{
+
+	display: inline-block;
+	min-width: 75px;
+	max-width: 125px;
+	max-height: 60px;
+	text-align: center;
+	
+}
+
+#logout #nav .tab:hover	{
+
+	text-decoration: underline;
+	
+} 
+
+#nav .tab label	{
+
+	display: block;
+	padding: 20px 10px;
+	line-height: 1.7;
+
+}
+
+#nav #darrow {
+
+	display: inline-block;
+	float: right;
+	height: 50px;
+	width: 10px;
+	margin: 5px;
+
+}
+
+#logout #list	{
+
+/*	background-color: Lavender;
+	background: -moz-linear-gradient(top, LightBlue, AliceBlue);	
+	background: -moz-linear-gradient(top, LightBlue, Lavender);		*/
+	
+	background: -moz-linear-gradient(20deg, LightBlue, Lavender , White);		
+	background: -webkit-linear-gradient(20deg, LightBlue, Lavender , White);		
+	background: -o-linear-gradient(20deg, LightBlue, Lavender , White);		
+	background: -ms-linear-gradient(20deg, LightBlue, Lavender , White);		
+	
+	border: 1px solid DarkGray;
+	display: none;
+	width: 210px;
+	padding: 15px 0px 0px 0px;
+	z-index: 100;
+	
+	position: relative;
+	top: 0px;
+	left: 0px;
+
+}
+
+#list #ul_list	{
+
+	margin: 0px 10px;
+
+}
+
+@media screen and (min-width: 525px)	{
+
+	#ul_list ul li	{
+
+		font-size: 13px;
+		padding: 5px;
+		font-style: italic;
+		text-shadow: 2px 2px 2px LightGray;	
+		
+		position: relative;
+		bottom: 2px;
+		left: 10px;
+
+	}
+
+	#ul_list ul li a:hover	{
+
+		text-decoration: underline;
+		text-shadow: 5px 5px 10px Gray;
+		
+	}
+
+}/*---------------End Of Media--------------*/
+
+#ul_list img	{
+
+	display: block;
+	float: left;
+	border: 1px solid DarkGray;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px LightGray;
+
+}
+
+#ul_list img:hover	{
+
+	opacity: 0.5;
+
+}
+
+#list #jodtaar	{
+
+	margin: 15px 0 0 0;
+	padding: 0 0 2px 0;
+	height: 27px;
+	opacity: 0.5;
+	text-align: center;
+	letter-spacing: 2px;
+	font: 20px Carolingia;
+	background-color: Gainsboro;
+	color: Black;
+	font-weight: bold;
+	border: 1px solid Gray;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	
+}
+
+#jodtaar em	{
+
+	font-size: 110%;
+
+}
+
+#present_tab	{
+
+	background: -moz-linear-gradient(50deg, DodgerBlue, LightBlue, Lavender);	
+	background: -webkit-linear-gradient(50deg, DodgerBlue, LightBlue, Lavender);	
+	background: -o-linear-gradient(50deg, DodgerBlue, LightBlue, Lavender);	
+	background: -ms-linear-gradient(50deg, DodgerBlue, LightBlue, Lavender);		
+
+}
+
+#present_tab a	{
+
+	color: black;
+
+}
+
+
+
+/*------------------hiddens----------------------*/
+
+#extra_nav span .show 	{
+
+	background: -moz-linear-gradient(50deg, Lavender , White , Lavender);
+	background: -webkit-linear-gradient(50deg, Lavender , White , Lavender);		
+	background: -o-linear-gradient(50deg, Lavender , White , Lavender);	
+	background: -ms-linear-gradient(50deg, Lavender , White , Lavender);
+
+	border: 1px solid DarkGray;
+	float: left;
+	display: none;
+	min-width: 225px;
+	min-height: 50px;
+	padding: 10px 0px 0px;
+	z-index: 100;
+	
+	position: relative;
+	top: 15px;
+	right: 9px;
+
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	
+	box-shadow: 5px 5px 5px Gray;
+	
+/*	opacity: 0;
+	-moz-transition: opacity 1s;
+	-moz-transition-delay: 1s;		*/
+
+}
+
+.show:hover	{
+
+	display: block;
+
+}
+
+.show .show_all	{
+
+	height: 20px;
+	font-size: 12px;
+	background-color: Gainsboro;
+	color: GrayText;
+	font-weight: bold;
+	border-top: 1px solid Gray;
+	text-align: center;
+	margin: 10px 0 0 0;
+	padding: 5px 0 0 0;
+	
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;	
+
+}
+
+.show_all:hover	{
+
+	text-decoration: underline;
+	cursor: pointer;
+	opacity: 0.85;
+
+}
+
+#extra_nav #msg_list	{
+
+	padding-top: 0px;
+
+}	
+
+#extra_nav #noti_list	{
+
+}	
+
+#extra_nav #frnd_request	{
+
+}	
+
+@media screen and (min-width: 525px )	{
+	
+	#extra_nav span:hover	{
+	
+/*		background-color: Gray;		*/
+		background: -moz-linear-gradient(45deg , LightGray , Gray , Gray , LightGray );
+		
+	}
+	#msg:hover #msg_list	{
+
+		display: block;
+/*		opacity: 1;
+		-moz-transition-delay: 0s;		*/
+
+	}
+
+	#noti:hover #noti_list	{
+
+		display: block;
+
+	}
+
+	#frnds:hover #frnd_request	{
+
+		display: block;
+
+	}
+
+}/*---End Of Media---*/
+
+
+/*---------(.show)----------*/
+
+.show .list	{
+
+	height: auto;
+	min-height: 45px;
+	padding: 5px 3px;
+	border-top: 1px solid LightGray;
+}
+
+.show .pro_pic	{
+
+	height: 50px;
+	width: 50px;
+	float: left;
+
+}
+
+.show .pro_pic img	{
+
+	height: 45px;
+	width: 45px;
+	border: 1px solid LightGray;
+	border-radius: 3px;
+
+}
+
+.show .user_name	{
+
+	padding: 5px 0 0 0;
+
+}
+
+.show .user_name	 > h6 {
+
+	color: DimGray;
+	font-size: 14px;
+	position: relative;
+	left: 5px;
+
+}
+
+.show .limit_txt		{
+
+	word-wrap: break-word;
+	overflow: hidden;
+
+}
+
+/*---------------Messages----------------*/
+
+
+#msg_list .msg	{
+
+	margin: 0 0 0 55px;
+	font-size: 11px;
+	color: Gray;
+	width: 150px;
+	height: 35px;
+	max-height: 35px;
+
+}
+
+#msg_list .msg > p	{
+
+	padding: 5px 0 0 5px;
+	height: 30px;
+
+}
+
+#msg_list #new	{
+	
+	text-align: right;
+	padding: 3px;
+
+}
+
+#new > a	{
+
+	cursor: pointer;
+
+}
+
+/*---------------Notifications----------------*/
+
+#noti_list .notee	{
+
+	margin: 5px 5px 5px 50px;
+	min-height: 30px;
+	max-height: 75px;
+
+}
+
+#noti_list .notee > p	{
+
+	height: auto;
+	max-height: inherit;
+}
+
+
+/*---------------Friend Request----------------*/
+
+#frnd_request .buts	{
+
+	margin: 5px 0 0 60px;
+	text-align: right;
+
+}
+
+#frnd_request .buts > a	{
+
+	display: inline;
+	padding: 2.5px;
+
+}

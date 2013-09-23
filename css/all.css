@@ -1,0 +1,543 @@
+@import url('medias.css');
+
+body	{
+
+	font: 12px Arial,Helvetica,sans-serif;
+/*	color: RoyalBlue;		*/
+	color: DarkSlateGray;
+
+}
+
+#wrapper	{
+
+	width: 100%;
+	clear: both;
+	min-height: 653px;
+	
+/*	background-color: LightBlue;
+	background: -moz-linear-gradient(50deg, Grey, Lavender, LightBlue);		*/
+	background: -moz-linear-gradient(50deg, Gray, Lavender, LightBlue, DodgerBlue);	
+	background: -webkit-linear-gradient(50deg, Gray, Lavender, LightBlue, DodgerBlue);	
+	background: -o-linear-gradient(50deg, Gray, Lavender, LightBlue, DodgerBlue);	
+	background: -ms-linear-gradient(50deg, Gray, Lavender, LightBlue, DodgerBlue);		
+	
+}
+
+
+#header	{
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+
+#footer	{
+
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+}
+
+.clear	{
+
+	clear: both;
+
+}
+
+
+/*=============================Header============================*/
+
+
+#header #extra_nav	{
+
+	width: 160px;
+	height: 60px;
+
+}
+
+
+#extra_nav span	{
+	
+	display: inline-block;
+	height: 30px;
+	padding: 15px 7.5px;
+}
+
+#extra_nav span a	{
+
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+
+}
+
+#extra_nav  #msg	{
+
+	width: 35px;
+	
+}
+
+#extra_nav  #noti	{
+
+	width: 30px;
+
+}
+
+#extra_nav  #frnds	{
+
+	width: 40px;
+
+}
+
+#extra_nav span label	{
+	
+	display: none;
+
+}
+
+#header #search	{
+
+	width: 250px;  
+	float: right;
+	margin: 0 150px 0 0;
+	
+} 
+
+#search #sform {	
+
+	width: 210px;
+	height: 60px;
+
+}
+
+#search #sicon {	
+
+	display: none;
+	float: right;
+	padding: 15px 5px;
+	width: 30px;
+	height: 30px;
+
+}
+
+
+#search #sform {	
+
+	height: 60px;
+
+}
+
+#sform input	{
+
+	width: 98%;
+	margin: 10% 0%;
+	border: 1px solid white;
+	opacity: 0.9;
+	
+}
+
+#sform #sresult	{
+
+	display: none;
+	border: 1px solid Gray;
+	border-top: none;
+	background-color: white;
+	z-index: 1001;
+
+}
+
+#sresult ul	{
+
+	list-style-type: none;
+	padding: 1px 2.5px;
+	
+
+}
+
+#sresult ul li	{
+
+	padding: 2.5px 0px;
+
+}
+
+#sform label	{
+	
+	font-size: 120%;
+
+}
+
+
+/*=============================Footer============================*/
+
+#footer	p {
+
+	color: white;
+	text-align: center;
+	padding: 10px 0 0 0;
+	
+}
+
+/*=============================Common Classes============================*/
+
+.user_pic	{
+
+	display: inline-block;
+	margin: 0px 5px;
+	float: left;
+
+}
+
+.user_pic	img {
+
+	border: 3px double Gray;
+	border-radius: 10px;
+	height: 55px;
+	width: 55px;
+	
+	-moz-transform: rotate(-15deg);
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	
+	-moz-transition : -moz-transform 0.5s , border-color 0.5s;
+	-webkit-transition : -webkit-transform 0.5s , border-color 0.5s;
+	-o-transition : -o-transform 0.5s , border-color 0.5s;
+	-ms-transition : -ms-transform 0.5s , border-color 0.5s;
+	
+	-moz-transition-delay : 1s;
+	-webkit-transition-delay : 1s;
+	-o-transition-delay : 1s;
+	-ms-transition-delay : 1s;
+	
+	/* Also Changed .post AND .message (all.css, 278)  AND  .jobpost > .details (home.css, 253) */
+	
+}
+
+#contents .user_pic img:hover {
+
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	
+	-moz-transition-delay : 0s;
+	-webkit-transition-delay : 0s;
+	-o-transition-delay : 0s;
+	-ms-transition-delay : 0s;
+	
+	border-color: DodgerBlue;
+
+}
+
+
+.post	{
+
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin: 0px 5px;
+	
+	position: relative;
+	right: 15px;
+	
+}
+
+.post .user_name	{
+
+	font-size: 14px;
+	font-weight: bold;
+	font-style: oblique;
+
+}
+
+
+.status_show p	{
+
+	letter-spacing: 1px;
+	text-align: justify;
+	font-size: 15px;
+
+}
+
+/*=============================Contents============================*/
+
+.more	{
+
+	background: url('../images/loading.gif') center no-repeat;
+	background-size: 20px 20px;
+	height: 20px;
+	display: none;
+
+}
+
+/*-------------Wats Going On---------------*/
+
+.status_msg	{
+
+	min-height: 110px;
+	margin: 5px 10px;
+
+}
+
+.status_msg h2	{
+
+	margin: 5px 0px;
+
+}
+
+
+.status_msg h2 .edit_del	{
+
+	background: url("../images/darrw.png") top right no-repeat transparent;
+	background-size: 10px 20px;
+	cursor: pointer;
+	float: right;
+	min-height: 50px;
+	min-width: 75px;
+	
+}
+
+.edit_del:hover	ul	{
+
+	display: block;
+
+}
+
+.edit_del ul	{
+
+	background: -moz-linear-gradient(40deg, Lavender , GhostWhite, GhostWhite , Lavender);	
+	background: -webkit-linear-gradient(40deg, Lavender , GhostWhite, GhostWhite , Lavender);	
+	background: -o-linear-gradient(40deg, Lavender , GhostWhite, GhostWhite , Lavender);	
+	background: -ms-linear-gradient(40deg, Lavender , GhostWhite, GhostWhite , Lavender);		
+
+	border: 1px solid Gray;
+	margin: 20px 0 0 0;
+	list-style-type: none;
+	display: none;
+
+}
+
+.edit_del ul li	{
+
+	border-top: 0.5px solid LightGray;
+	border-bottom: 0.5px solid LightGray;
+	padding: 2px 5px;
+	color: Grey;
+
+}
+
+.edit_del ul li:hover	{
+
+	background: none;
+	background-color: LightGray;
+	color: Black;
+	
+}
+
+.status_msg .message	{
+
+/*	background-color: GhostWhite;
+	border: 1px solid DarkGray;
+	color: DodgerBlue;	*/
+	min-height: 50px;
+	margin: 5px 40px 0px 85px;
+	padding: 3px 5px 3px;
+
+}
+
+.status_msg .comment	{
+
+	margin: 0;
+	text-align: center;
+	background: url('../images/dash.png') repeat-x transparent;
+
+}
+
+.comment button	{
+
+/*	color: RoyalBlue;	*/
+	color: GrayText;
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	z-index: 101;
+	
+	position: relative;
+	bottom: 5px;
+
+}
+
+.comment button:hover	{
+
+	text-decoration: underline;
+	opacity: 0.7;
+
+}
+
+.status_msg .com_box	{
+
+	margin: 0 0 20px 0;
+	display: none;
+
+}
+
+.com_box textarea	{
+
+	border: 1px solid LightGray;
+	margin: 0 75px;
+	height: 50px;
+	width: 450px;
+	
+	max-width: 465px;
+	max-height: 75px;
+
+}
+
+.com_box textarea:focus	{
+
+	border: 1px solid DodgerBlue;
+
+}
+
+
+.com_box input	{
+
+	display: none;
+	margin: 3px 87px 0 0;
+	float: right;
+	padding: 1px 3px;
+	border: 1px solid LightGray;
+	border-radius: 3px;
+	color: black;
+
+}
+
+/*-------------User status---------------*/
+
+
+#user_status #status_update	{
+
+	border: 1px solid gray;
+	opacity: 0.8;
+
+}
+	
+#user_status #post_update	{
+
+	min-height: 25px;
+	display: none;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+#post_update input	{
+
+	background: -moz-linear-gradient(top , Gainsboro, LightGrey, Silver);
+	background: -webkit-linear-gradient(top , Gainsboro, LightGrey, Silver);
+	background: -o-linear-gradient(top , Gainsboro, LightGrey, Silver);
+	background: -ms-linear-gradient(top , Gainsboro, LightGrey, Silver);	
+	
+	float: right;
+	display: block;
+	width: 100px;
+	padding: 2.5px 0;	
+	border-radius: 5px;
+	height: 30px;
+	font-size: 15px;
+
+}
+
+#post_update input:hover	{
+
+	text-decoration: none;
+	opacity: 0.7;
+
+}
+
+
+
+/*-------------------Profile----------------------*/
+
+
+.reg_field	{			
+
+	height: 60px;
+
+}
+
+
+.reg_field p	{
+
+	padding: 0px 0px 5px;
+	letter-spacing: 1px;
+	font-size: 13px;
+
+}
+
+.reg_field input	{
+
+	width: 90%;
+	height: 25px;
+	padding: 0 5px;
+	border: 1px solid LightGray;
+
+}
+
+.reg_field input:focus	{
+
+	border: 1px solid DodgerBlue;
+	
+}
+
+#profile_fill .reg_field	{
+
+	margin: 0 0 0 10px;
+
+}
+
+#profile_fill input:focus	{
+
+	border: 1px solid DodgerBlue;
+
+}
+
+#old_det, #new_det	{
+
+	padding: 10px;
+	
+}
+
+#profile_fill #sub_but	{
+
+	text-align: right;
+	margin: 0px 40px 15px 0;
+
+}
+
+#sub_but input	{
+
+	background-color: Lavender;
+	border: 1px solid Gray;
+	border-radius: 3px;
+	padding: 2px;
+	color: Black;
+
+}
+
+#sub_but input:hover {
+
+	opacity: 0.7;
+	color: Brown;
+
+}
+
+
+
+/*--------------------------------LINKS---------------------------------*/
+
+
+a:link {text-decoration:none; color: SteelBlue;}
+a:visited {text-decoration:none; color: RoyalBlue; }
+a:hover {text-decoration:underline; color: SteelBlue;}
+a:active {text-decoration:underline; color: RoyalBlue;}

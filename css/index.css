@@ -1,0 +1,568 @@
+@import url('all.css');
+
+body #wrapper	{
+
+	min-height: 677px;
+
+}
+
+
+/*=============================Header============================*/
+
+#header #name {
+
+	float: left;
+	text-align: center;
+	width: 180px;
+	padding: 2px 5px 5px 75px;
+
+}
+
+#name a:hover	{
+
+	text-decoration: none;
+
+}
+
+#name label	{
+
+	text-shadow: 2px 2px 2px Lavender;
+	letter-spacing: 2px;
+	font: 42px Carolingia;
+	color: White;
+	cursor: pointer;
+
+}
+
+#name label em	{
+
+	font-size: 110%;
+
+}
+
+
+#header #login	{
+
+	margin: 0 50px 0 0;
+	color: white;
+	float: right;
+
+}
+
+#login .field	{
+
+	display: inline-block;
+	margin: 2px 5px 5px;
+	height: 60px;
+
+}
+
+.field p	{
+
+	padding: 5px 0px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	
+}
+
+.field .brdr	{
+
+	border: 1px solid Gray;
+	height: 18px;
+
+}
+
+.field .brdr:focus	{
+
+	border: 1px solid cornflowerblue;
+
+}
+
+.field #sub_button	{
+
+	background: -moz-linear-gradient( 50deg , Gainsboro, LightGrey, Silver );
+	background: -webkit-linear-gradient( 50deg , Gainsboro, LightGrey, Silver );
+	background: -o-linear-gradient( 50deg , Gainsboro, LightGrey, Silver );
+	background: -ms-linear-gradient( 50deg , Gainsboro, LightGrey, Silver );
+	
+	letter-spacing: 1px;
+	height: 23px;
+	padding: 0px 3px;
+	font-size: 15px;
+	border: 1px solid Silver;
+	border-radius: 3px;
+
+}
+
+#sub_button:hover	{
+
+	opacity: 0.9;
+
+}
+
+
+/*=============================Container============================*/
+
+
+#container #front_pic	{
+
+	margin: 120px 0 0 6%;
+	float: left;
+	height: 292px;
+	width: 480px;
+	border: 1px solid Gray;
+	box-shadow: 2px 2px 5px Gray;
+	background: url(./../images/friends.jpg) no-repeat;
+	background-size: 480px 292px;
+	
+}
+
+#kid_pic	{
+
+	height: 292px;
+	width: 480px;
+	opacity: 0;
+	
+	-moz-transition: opacity 1s ease-out;
+	-moz-transition-delay: 0.5s;
+
+	-webkit-transition: opacity 1s ease-out;
+	-webkit-transition-delay: 0.5s;	
+
+	-o-transition: opacity 1s ease-out;
+	-o-transition-delay: 0.5s;
+
+	-ms-transition: opacity 1s ease-out;
+	-ms-transition-delay: 0.5s;	
+	
+}
+
+#front_pic:hover #kid_pic	{
+
+	-moz-transition-delay: 0s;
+	-webkit-transition-delay: 0s;
+	-o-transition-delay: 0s;
+	-ms-transition-delay: 0s;
+	
+	opacity: 1;
+
+}
+
+#container #register	{
+
+	background: -moz-linear-gradient(50deg, Lavender, White, White);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, White);	
+	background: -o-linear-gradient(50deg, Lavender, White, White);		
+	background: -ms-linear-gradient(50deg, Lavender, White, White);	
+	
+	box-shadow: 2px 2px 5px Gray;	
+	float: right;
+	color: Gray;
+	margin: 90px 10% 0 0;
+	min-height: 100px;
+	width: 350px;
+	border: 1px solid White;
+	border-radius: 7px;
+
+}
+
+#register #new_user	{
+
+	margin: 10px 0px;
+
+}
+
+#new_user > p	{
+
+	font-size: 21px;
+	padding: 0 15px 10px 10px;
+	opacity: 0.8;
+
+}
+
+#new_user > p > label	{
+
+	font-size: 23px;
+	color: black;
+	opacity: 0.9;
+
+}
+
+#new_user #ust	{
+
+	float: right;
+	color: purple;
+	font-size: 11px;
+	margin: 23px 5px 0 0;
+
+}
+
+#new_user hr	{
+
+	color: LightGray;
+	opacity: 0.8;
+
+}
+
+#register #new_form	{
+
+	margin: 10px 20px;
+
+}
+
+/* included .reg_fields, now in all.css */
+
+#new_form #SignUp	{
+
+	height: 40px;
+	margin: 5px 0 0 0;
+	padding: 0 30px 0 0;
+	text-align: right;
+
+}
+
+#SignUp input	{
+
+	background: -moz-linear-gradient(50deg, LightGray, Gainsboro , Lavender);
+	background: -webkit-linear-gradient(50deg, LightGray, Gainsboro , Lavender);
+	background: -o-linear-gradient(50deg, LightGray, Gainsboro , Lavender);
+	background: -ms-linear-gradient(50deg, LightGray, Gainsboro , Lavender);
+	
+	border-radius: 5px;
+	padding: 2px 2px 3px;
+	color: SteelBlue;
+	font-size: 17px;
+	height: 30px;
+
+}
+
+/* On Wrong Username/Password Section */
+
+.reg_pos	{
+
+	position: relative;
+	top: 30px;
+
+}
+
+
+#register .status	{
+
+	display: block;
+	font-size: 19px;
+	color: Purple;
+	opacity: 0.7;
+	padding: 0 0 0 20px;
+	margin: 0 0 7px 0;
+
+}
+
+.status label	{
+
+	color: red;
+	position: relative;
+	bottom: 2px;
+
+}
+
+#register .wrong	{			
+
+	padding: 10px 0 0 0;	
+
+}
+
+/*---End Section---*/
+
+#copyright	{
+
+	text-align: center;
+	color: WindowFrame;
+
+}
+
+#copyright p	{
+
+	padding: 2px 0px;
+
+}
+
+#copyright p	label		{
+
+	font: 17px Carolingia;
+	letter-spacing: 1px;
+
+}
+
+#copyright p	label	em 	{
+
+	font-size: 110%;
+
+}
+
+
+
+@media screen and (max-width: 1270px)	{
+
+	#wrapper #container #front_pic	{
+	
+		margin: 70px 0 0 6%;
+	
+	}
+
+	#wrapper #container #register	{
+	
+		margin: 60px 5% 0 0;
+	
+	}
+
+
+}/*---End Of Media---*/
+
+
+
+/*============================Phases.php=================================*/
+
+#container #profile_fill	{
+
+	background: -moz-linear-gradient(50deg, Lavender, White, White);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, White);	
+	background: -o-linear-gradient(50deg, Lavender, White, White);		
+	background: -ms-linear-gradient(50deg, Lavender, White, White);	
+	
+	box-shadow: 2px 2px 5px Gray;	
+	color: Gray;
+	float: left;
+	margin: 40px 0 0 0;
+	min-height: 250px;
+	width: 570px;
+	border: 1px solid White;
+	border-radius: 7px;
+
+}
+
+#profile_fill #profile_head	{
+
+	height: 40px;
+	color: GrayText;
+	font-size: 25px;
+	padding: 7px 0 0 25px;
+
+}
+
+#profile_head label	{
+
+	margin: 23px 10px 0 0;
+	font-size: 11px;
+	float: right;
+
+}
+
+#profile_fill .reg_head	{
+
+	font-size: 19px;
+	margin: 0 0 10px 0;
+	text-decoration: underline;
+
+}
+
+#old_det	{
+
+	float: left;
+	width: 220px;
+	
+}
+
+
+#new_det	{
+	
+	float: right;
+	width: 300px;
+
+}
+
+
+#new_det #radio input	{
+
+	width: auto;
+	height: auto;
+	margin: 5px 50px 0 0;
+
+}
+
+#new_det #radio label	{
+
+	display: inline-block;
+	padding: 2px 5px 0px;
+	font-size: 11px;
+	letter-spacing: 1px;
+
+}
+
+#new_det select		{
+
+	margin: 5px 3px 0px;
+	padding: 0 0 0 5px;
+
+}
+
+#new_det #b_date	{
+
+	width: 50px;
+	
+}
+
+#new_det #b_month	{
+
+	width: 100px;
+
+}
+
+#new_det #b_year	{
+
+	width: 65px;
+	height: 17px;
+	margin: 5px 5px 0px;
+	padding: 0 0 0 5px;
+
+}
+
+/*============================confirm_pro.php=================================*/
+
+#container #profile_pic	{
+
+	background: -moz-linear-gradient(50deg, Lavender, White, White);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, White);	
+	background: -o-linear-gradient(50deg, Lavender, White, White);		
+	background: -ms-linear-gradient(50deg, Lavender, White, White);	
+	
+	box-shadow: 2px 2px 5px Gray;	
+	color: Gray;
+	float: left;
+	margin: 75px 0 0 0;
+	min-height: 250px;
+	width: 570px;
+	border: 1px solid White;
+	border-radius: 7px;
+
+}
+
+
+#profile_pic #confirmed		{
+
+	min-height: 50px;
+	color: Highlight;
+	
+}
+
+#confirmed #wel	{
+
+	padding: 10px 0 0 10px;
+	font-size: 21px;
+	
+}
+
+#wel em	{
+
+	color: SteelBlue;
+
+}
+
+#confirmed #note	{
+
+	padding: 3px 0 15px 20px;
+	font-size: 19px;
+	
+}
+
+#profile_pic #upload_pic	{
+
+	margin: 30px 0 15px;
+
+}
+
+#upload_pic #pro_pic	{
+
+	margin: 0 0 0 75px;
+	height: 100px;
+	width: 100px;
+	float: left;
+
+}
+
+#pro_pic img	{
+
+	border: 1px solid LightGray;
+	border-radius: 5px;
+
+}
+
+#upload_pic #field	{
+
+	margin: 0 0 0 25px;
+	float: left;
+
+}
+
+#field p	{
+
+	font-size: 16px;
+	padding: 2px 0px;
+
+}
+
+#upload_pic #sub	{
+
+	margin: 25px 50px 0 0;
+	float: right;
+
+}
+
+#sub input	{
+
+	padding: 3px;
+	border: 1px solid LightGray;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 13px;
+	background-color: GhostWhite;
+	color: Black;
+	cursor: pointer;
+
+}
+
+#sub input:hover	{
+
+	opacity: 0.8;
+	text-decoration: underline;
+
+}
+
+
+#upload_pic #skip	{
+
+	margin: 25px 20px 0 0;
+	float: right;
+
+}
+
+
+#skip a	{
+
+	display: block;
+	height: 15px;
+	width: 35px;
+	padding: 3px;
+	border: 1px solid LightGray;
+	border-radius: 3px;
+	text-align: center;
+	font-size: 13px;
+	background-color: GhostWhite;
+	color: Black;
+
+}
+
+#skip a:hover	{	
+
+	opacity: 0.8;
+
+}

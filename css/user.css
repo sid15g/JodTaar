@@ -1,0 +1,775 @@
+@import url('all.css');
+@import url('header.css');
+
+/*---------------sidebar---------------------*/
+
+#container #sidebar	{
+
+	margin: 0;
+
+}
+
+#sidebar .person	{
+
+	min-height: 50px;
+
+}
+
+#sidebar .Listee			{
+
+	background: -moz-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -o-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -ms-linear-gradient(50deg, Lavender, White, Lavender);	
+	
+	border: 0px solid GhostWhite;
+	border-radius: 10px;	
+	box-shadow: 0px 0px 5px Grey;
+	
+}/* Detailed at Line around 200 */
+
+/*-------------------------ToLinks--------------------------*/
+
+#sidebar #ToLinks	{
+	
+	min-height: 160px;
+	margin: 15px 0 50px;
+
+}
+
+#ToLinks .lnks	{
+
+	border: 1px solid LightGray;
+	padding: 5px 0px;
+	margin: 0px auto;
+	height: 30px;
+
+}
+
+#ToLinks #top_end	{
+
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	
+}
+
+#ToLinks #bottom_end	{
+
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	
+}
+
+.lnks p	{
+
+	padding: 2px 0px 0px 10px;
+	text-align: left;
+	font-size: 20px;
+	color: DodgerBlue;
+	font-weight: bold;
+
+}
+
+.lnks p span	{
+
+	display: inline-block;
+	width: 80%;
+	font-size: 80%;
+	opacity: 0.8;	
+	color: Gray;
+	text-align: left;
+	padding: 0 0 0 25px;
+	
+}
+
+.lnks p:hover  span{
+
+	text-decoration: underline;
+	color: Black;	
+	
+}
+
+.lnks p:hover	{
+
+	opacity: 0.7;
+	color: Indigo;
+	font-weight: bolder;
+
+}
+
+
+/*-------------------------intrst--------------------------*/
+
+#sidebar #intrst	{
+	
+	min-height: 200px;
+	margin: 15px 0 20px;	
+	padding: 10px;
+
+}
+
+#intrst h2	{
+
+	text-align: center;
+	font-size: 14px;
+	text-decoration:  underline;
+	margin: 0 0 15px 0;
+
+}
+
+#intrst .suggestion	{
+
+	height: 75px;
+	margin: 5px 0px;
+
+}
+	
+#intrst .follow_user	{
+
+	margin: 10px 0 0 0;
+	float: right;
+
+}
+
+.follow_user button	{
+
+	border: 1px solid LightGray;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px LightGray;
+	text-align: center;
+	padding: 3px 5px;
+	
+	background: -moz-linear-gradient( top, Gainsboro, LightGrey, Silver );
+	background: -webkit-linear-gradient( top, Gainsboro, LightGrey, Silver );
+	background: -o-linear-gradient( top, Gainsboro, LightGrey, Silver );
+	background: -ms-linear-gradient( top, Gainsboro, LightGrey, Silver );	
+
+}
+
+#intrst .follow_user:hover button{
+
+	opacity: 0.7;
+
+}
+
+
+/*---------------------FrndList---------------------*/
+
+#sidebar #frndList	{
+
+	min-height: 200px;
+	margin: 15px 0 20px;	
+	padding: 10px;
+
+}
+
+#frndList > h2	{
+
+	text-align: center;
+	font-size: 16px;
+	text-decoration:  underline;
+	margin: 0 0 15px 0;
+
+}
+
+#frndList .frnd_list		{
+
+	margin: 7.5px 0 0 0;
+	min-height: 65px;
+
+}
+
+/*-------------------------------Listee----------------------------*/
+
+.Listee .user_pic	{
+
+	display: inline-block;
+	margin: 0px 5px;
+	height: 50px;
+	width: 50px;
+	float: left;
+
+}
+
+.Listee .user_pic img	{
+
+	text-align: left;
+	border: 1px solid DarkGray;
+	border-radius: 3px;
+
+}
+
+.Listee .user_name	{
+
+	margin: 0px 10px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+
+}
+
+.Listee .user_name p	{
+
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.3;
+
+}
+
+.Listee .user_name label	{
+
+	font-size: 13px;
+	font-weight: bold;	
+	font-style: italic;
+	opacity: 0.8;
+
+}
+
+
+/*---------------------------------------------*/
+/*---------------contents---------------------*/
+
+#container #contents	{
+
+	margin: 0;
+
+}
+
+
+#status	{
+
+	background: -moz-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+	background: -webkit-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+	background: -o-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+	background: -ms-linear-gradient( 300deg , Lavender, GhostWhite, Lavender);	
+	
+	border: 0px solid GhostWhite;
+	border-radius: 10px;
+	min-height: 350px;
+	padding: 10px;
+	margin: 15px 0;
+	
+	box-shadow: 0px 0px 5px Grey;	
+
+}
+
+
+#status h1	{
+
+	font-size: 19px;
+	text-align: left;
+	padding: 0 0 10px 10px;
+
+}
+
+#status hr	{
+
+	color: LightGray;
+	opacity: 0.7;
+	margin: 0 0 10px;
+
+}
+
+/*--------------User Account------------------------*/
+
+#user_acc	{
+
+	background: -moz-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -webkit-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -o-linear-gradient(50deg, Lavender, White, Lavender);	
+	background: -ms-linear-gradient(50deg, Lavender, White, Lavender);		
+
+	border: 0px solid GhostWhite;
+	border-radius: 10px;
+	min-height: 165px;
+	margin: 5% 0 15px;
+	
+	box-shadow: 0px 0px 5px Grey;	
+
+}
+
+#user_acc #user_details	{
+
+	float: left;
+	width: 50%;
+	margin: 10px;
+
+}
+
+@media screen and (max-width: 1024px )	{
+
+	#container #user_acc #user_details	{
+	
+		width: 70%;
+	
+	}
+
+
+}/*---------------End Of Media--------------*/
+
+
+#user_details #user_name	{
+
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+	margin: 10px;
+
+}
+
+
+
+#user_details #pro_pic	{
+	
+	float: left;
+	height: 115px;
+	width: 115px;
+	margin: 5px;
+}
+
+@media screen and (max-width: 600px )	{
+
+	#user_details #pro_pic	{
+		
+		float: left;
+		height: 100px;
+		width: 100px;
+		margin: 7px 5px;
+	}
+	
+}/*---------------End Of Media--------------*/
+
+
+#user_details #user_status	{
+
+	min-height: 50px;
+	padding: 10px 0px 0px;
+	margin: 1%;
+
+}
+
+#user_status #status_update	{
+
+	width: 90%;
+	height: 40px;
+	max-height: 50px;
+	max-width: 500px;
+	
+}	
+
+#user_status #post_update	{
+
+	margin: 5px 0 0 0;
+	width: 90%;
+
+}
+	
+#user_details #pro_pic img	{
+
+	border: 1px solid DarkGray;
+	border-radius: 5px;
+
+}
+
+#user_name label	{
+
+	display: block;
+	position: relative;
+	left: 7px;
+
+}
+
+#user_name #full_name	{
+
+	text-shadow: 2px 2px 5px LightGray;	
+	letter-spacing: 1px;
+	font: 40px Carolingia;
+	line-height: 30px;
+	opacity: 0.85;
+	color: Highlight;
+	height: 30px;
+
+}
+
+#user_name #id	{
+
+	letter-spacing: 0.75px;
+	font-size: 20px;
+	opacity: 0.7;
+	color: Highlight;
+
+}
+
+@media screen and (max-width: 700px )	{
+
+	#user_details #user_name #full_name	{
+		
+		font-size: 22px;
+
+	}
+	
+	#user_details #user_name #id	{
+		
+		font-size: 17px;
+
+	}
+	
+	#user_name  #details .lines	{
+	
+		font-size: 10px;
+	
+	}
+	
+	
+}/*---------------End Of Media--------------*/
+
+#user_name #details	{
+
+	margin: 20px 0 0 0;
+
+}
+
+#details #personal	{
+
+	float: left;
+	width: 38%;
+
+}
+
+#details #contact	{
+
+	float: right;
+	width: 38%;
+
+}
+
+@media screen and (max-width: 1225px )	{
+
+	#user_name #details #personal, #user_name #details #contact	{
+	
+		width: 30%;
+	
+	}
+
+}/*---------------End Of Media--------------*/
+
+#details .lines	{
+
+	letter-spacing: 0.5px;
+	font-size: 12px;
+	opacity: 0.55;
+	color: black;
+
+}
+
+
+@media screen and (max-width: 700px )	{
+
+	#container #user_acc #user_more	{
+	
+		display: none;
+
+	}
+	
+	#container #user_acc #user_details	{
+	
+		width: 95%;
+
+	}
+	
+}/*---------------End Of Media--------------*/
+
+
+#user_acc #user_more	{
+
+	margin: 10px;
+	float: right;
+	min-width: 8%;
+
+}
+
+#user_more > div	{
+
+	float: right;
+
+}
+
+#user_more span	{
+
+	display: block;
+
+}
+
+#edit_button button	{
+
+	border: 1px solid LightGray;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 15px;		
+	margin: 0 0 15px;
+	padding: 5px;
+	color: black;
+	
+	box-shadow: 2px 2px 5px LightGray;	
+	background: -moz-linear-gradient( top, Gainsboro, LightGrey, Silver );
+	background: -webkit-linear-gradient( top, Gainsboro, LightGrey, Silver );
+	background: -o-linear-gradient( top, Gainsboro, LightGrey, Silver );
+	background: -ms-linear-gradient( top, Gainsboro, LightGrey, Silver );	
+
+}
+
+#edit_button button:hover	{
+
+	opacity: 0.7;
+
+}
+
+#user_more .noti	{
+
+	margin: 5px 0px;
+	padding: 5px;
+	height: 30px;
+	border: 1px solid White;
+	border-radius: 5px;
+	width: 76px;
+	
+	background: -moz-linear-gradient( top, Lavender, White, Lavender );
+	background: -webkit-linear-gradient( top, Lavender, White, Lavender );
+	background: -o-linear-gradient( top, Lavender, White, Lavender );
+	background: -ms-linear-gradient( top, Lavender, White, Lavender );
+	
+	
+}
+
+.noti p	{
+	
+	position: relative;
+	top: 5px;
+	color: black;
+	text-align: center;
+	font-size: 14px;
+
+}
+
+.noti .show	{
+
+	display: none;
+	min-height: 180px;
+	width: 300px;
+	float: left;
+	border: 1px solid Gray;
+	border-radius: 5px;
+	z-index: 100;
+	
+	box-shadow: 2px 2px 5px LightGray;
+	
+	background: -moz-linear-gradient( 50deg , Lavender, White , Lavender );
+	background: -webkit-linear-gradient( 50deg , Lavender, White , Lavender );
+	background: -o-linear-gradient( 50deg , Lavender, White , Lavender );
+	background: -ms-linear-gradient( 50deg , Lavender, White , Lavender );	
+
+}
+
+.noti:hover	p{
+	
+	opacity: 0.7;
+
+}
+
+.noti:hover	.show{
+	
+	display: block;
+
+}
+
+
+.noti #frnds	{
+
+	position: relative;
+	bottom: 75px;
+	right: 310px;
+
+}
+
+
+.noti #pics	{
+
+	position: relative;
+	bottom: 127px;
+	right: 310px;
+
+}
+
+
+
+#user_acc .status_show	{
+	
+	float: left;
+	margin: 20px 5px 0;
+	height: 50px;
+	width: 350px;
+	
+}
+
+@media screen and (max-width: 1080px)	{
+
+	.status_show	{
+		
+		display: none;
+		
+	}
+	
+}/*---End Of Media---*/
+
+.status_show p	{
+
+	font: 13px Arial;
+	font-style: italic;
+	color: Gray;
+}
+
+
+
+#frnds .person	{
+
+	display: inline-block;
+	width: 150px;
+	margin: 5px 0;
+
+}
+
+.person:nth-child(odd)	{
+
+	float: left;
+
+}
+
+#frnds .person .user_pic	img {
+
+	border: 1px solid gray;
+	border-radius: 5px;
+	
+	-moz-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+
+}
+
+.person .user_name	{
+
+	padding: 5px 5px 0 0;
+
+}
+
+.person .user_name a	{
+
+	font-size: 12px;
+	
+}
+
+#pics .tabs	{
+	
+	display: inline-block;
+	margin: 2px;
+	width: 146px;
+	height: 87px;
+
+}
+
+.tabs:nth-child(odd)	{
+
+	float: left;
+
+}
+
+.tabs img	{
+
+	border-radius: 5px;
+	
+}
+
+.tabs img:hover	{
+
+	opacity: 0.8;
+
+}
+
+
+
+/*----------------Profile--------------*/
+
+#pro_head p	{
+
+	font-size: 20px;
+	color: GrayText;
+	padding: 7px 0 5px 17.5px;
+
+}
+
+#pro_head hr	{
+
+	color: DarkGray;
+	border-radius: 5px;
+	margin-bottom: 10px;
+
+}
+
+#profile_pic	{
+
+	float: left;
+	width: 230px;
+
+}
+
+#profile_pic #pro_pic	{
+
+	margin: 20px auto;
+	height: 110px;
+	width: 100px;
+
+}
+
+#pro_pic img	{
+
+	box-shadow: 3px 3px 3px DarkGray;
+	border: 1px solid LightGray;
+	border-radius: 5px;
+
+}
+
+#profile_pic #field	{
+
+	padding: 0 0 0 10px;
+
+}
+
+#old_det, #new_det	{
+
+	float: left;
+	width: 300px;
+	
+}
+
+#profile_fill #old_det	{
+
+	margin-left: 25px;
+	padding: 10px 0 0 0;
+
+}
+
+#profile_fill #new_det	{
+
+	padding: 5px 0 20px 25px;
+
+}
+
+#profile_fill #sub_but	{
+
+	margin-bottom: 0;
+	width: 120px;
+	float: right;
+	position: relative;
+	bottom: 55px;
+
+}

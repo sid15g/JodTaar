@@ -1,0 +1,31 @@
+/*-------------send_new_msg--------------*/
+
+#container #send_new_msg		{
+	
+
+/*	top: 30%;
+	left: 30%;	*/
+	
+	min-height: 250px;
+	min-width: 500px;
+
+}
+
+#head #new_msg_head	{
+
+	width: 400px;
+
+}
+
+#msg_form	{
+
+	margin: 10px auto;
+	width: 250px;
+
+}
+
+#msg_form .form_field	{
+
+	min-height: 60px;
+
+}
